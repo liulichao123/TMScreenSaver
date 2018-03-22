@@ -15,6 +15,7 @@
 		885F0C5120639ED40081F434 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 885F0C5020639ED40081F434 /* Cocoa.framework */; };
 		885F0C5320639EDF0081F434 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 885F0C5220639EDF0081F434 /* AppKit.framework */; };
 		885F0C542063A0DC0081F434 /* linyuner.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 885F0C4A206395DC0081F434 /* linyuner.mp4 */; };
+		885F0C562063B4140081F434 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 885F0C552063B4140081F434 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		885F0C4E20639E930081F434 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		885F0C5020639ED40081F434 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		885F0C5220639EDF0081F434 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		885F0C552063B4140081F434 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +50,7 @@
 		885F0C292063525F0081F434 = {
 			isa = PBXGroup;
 			children = (
+				885F0C552063B4140081F434 /* README.md */,
 				885F0C352063525F0081F434 /* TMScreenSaver */,
 				885F0C342063525F0081F434 /* Products */,
 				885F0C4B20639E810081F434 /* Frameworks */,
@@ -154,6 +157,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				885F0C562063B4140081F434 /* README.md in Resources */,
 				885F0C542063A0DC0081F434 /* linyuner.mp4 in Resources */,
 				885F0C49206395370081F434 /* index.html in Resources */,
 			);
