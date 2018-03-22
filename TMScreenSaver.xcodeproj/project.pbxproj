@@ -1,0 +1,335 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		885F0C372063525F0081F434 /* TMScreenSaverView.h in Headers */ = {isa = PBXBuildFile; fileRef = 885F0C362063525F0081F434 /* TMScreenSaverView.h */; };
+		885F0C392063525F0081F434 /* TMScreenSaverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 885F0C382063525F0081F434 /* TMScreenSaverView.m */; };
+		885F0C49206395370081F434 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 885F0C48206395370081F434 /* index.html */; };
+		885F0C4D20639E810081F434 /* ScreenSaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 885F0C4C20639E810081F434 /* ScreenSaver.framework */; };
+		885F0C4F20639E930081F434 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 885F0C4E20639E930081F434 /* WebKit.framework */; };
+		885F0C5120639ED40081F434 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 885F0C5020639ED40081F434 /* Cocoa.framework */; };
+		885F0C5320639EDF0081F434 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 885F0C5220639EDF0081F434 /* AppKit.framework */; };
+		885F0C542063A0DC0081F434 /* linyuner.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 885F0C4A206395DC0081F434 /* linyuner.mp4 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		885F0C332063525F0081F434 /* TMScreenSaver.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TMScreenSaver.saver; sourceTree = BUILT_PRODUCTS_DIR; };
+		885F0C362063525F0081F434 /* TMScreenSaverView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMScreenSaverView.h; sourceTree = "<group>"; };
+		885F0C382063525F0081F434 /* TMScreenSaverView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMScreenSaverView.m; sourceTree = "<group>"; };
+		885F0C3A2063525F0081F434 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		885F0C48206395370081F434 /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		885F0C4A206395DC0081F434 /* linyuner.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = linyuner.mp4; sourceTree = "<group>"; };
+		885F0C4C20639E810081F434 /* ScreenSaver.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScreenSaver.framework; path = System/Library/Frameworks/ScreenSaver.framework; sourceTree = SDKROOT; };
+		885F0C4E20639E930081F434 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		885F0C5020639ED40081F434 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		885F0C5220639EDF0081F434 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		885F0C2F2063525F0081F434 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				885F0C5320639EDF0081F434 /* AppKit.framework in Frameworks */,
+				885F0C5120639ED40081F434 /* Cocoa.framework in Frameworks */,
+				885F0C4F20639E930081F434 /* WebKit.framework in Frameworks */,
+				885F0C4D20639E810081F434 /* ScreenSaver.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		885F0C292063525F0081F434 = {
+			isa = PBXGroup;
+			children = (
+				885F0C352063525F0081F434 /* TMScreenSaver */,
+				885F0C342063525F0081F434 /* Products */,
+				885F0C4B20639E810081F434 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		885F0C342063525F0081F434 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				885F0C332063525F0081F434 /* TMScreenSaver.saver */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		885F0C352063525F0081F434 /* TMScreenSaver */ = {
+			isa = PBXGroup;
+			children = (
+				885F0C362063525F0081F434 /* TMScreenSaverView.h */,
+				885F0C382063525F0081F434 /* TMScreenSaverView.m */,
+				885F0C48206395370081F434 /* index.html */,
+				885F0C3A2063525F0081F434 /* Info.plist */,
+				885F0C4A206395DC0081F434 /* linyuner.mp4 */,
+			);
+			path = TMScreenSaver;
+			sourceTree = "<group>";
+		};
+		885F0C4B20639E810081F434 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				885F0C5220639EDF0081F434 /* AppKit.framework */,
+				885F0C5020639ED40081F434 /* Cocoa.framework */,
+				885F0C4E20639E930081F434 /* WebKit.framework */,
+				885F0C4C20639E810081F434 /* ScreenSaver.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		885F0C302063525F0081F434 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				885F0C372063525F0081F434 /* TMScreenSaverView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		885F0C322063525F0081F434 /* TMScreenSaver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 885F0C3D2063525F0081F434 /* Build configuration list for PBXNativeTarget "TMScreenSaver" */;
+			buildPhases = (
+				885F0C2E2063525F0081F434 /* Sources */,
+				885F0C2F2063525F0081F434 /* Frameworks */,
+				885F0C302063525F0081F434 /* Headers */,
+				885F0C312063525F0081F434 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TMScreenSaver;
+			productName = TMScreenSaver;
+			productReference = 885F0C332063525F0081F434 /* TMScreenSaver.saver */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		885F0C2A2063525F0081F434 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "天明";
+				TargetAttributes = {
+					885F0C322063525F0081F434 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 885F0C2D2063525F0081F434 /* Build configuration list for PBXProject "TMScreenSaver" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 885F0C292063525F0081F434;
+			productRefGroup = 885F0C342063525F0081F434 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				885F0C322063525F0081F434 /* TMScreenSaver */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		885F0C312063525F0081F434 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				885F0C542063A0DC0081F434 /* linyuner.mp4 in Resources */,
+				885F0C49206395370081F434 /* index.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		885F0C2E2063525F0081F434 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				885F0C392063525F0081F434 /* TMScreenSaverView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		885F0C3B2063525F0081F434 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		885F0C3C2063525F0081F434 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		885F0C3E2063525F0081F434 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = GZ86Z42ZH8;
+				INFOPLIST_FILE = TMScreenSaver/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_BUNDLE_IDENTIFIER = tm.com.TMScreenSaver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Debug;
+		};
+		885F0C3F2063525F0081F434 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = GZ86Z42ZH8;
+				INFOPLIST_FILE = TMScreenSaver/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_BUNDLE_IDENTIFIER = tm.com.TMScreenSaver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		885F0C2D2063525F0081F434 /* Build configuration list for PBXProject "TMScreenSaver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				885F0C3B2063525F0081F434 /* Debug */,
+				885F0C3C2063525F0081F434 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		885F0C3D2063525F0081F434 /* Build configuration list for PBXNativeTarget "TMScreenSaver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				885F0C3E2063525F0081F434 /* Debug */,
+				885F0C3F2063525F0081F434 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 885F0C2A2063525F0081F434 /* Project object */;
+}
